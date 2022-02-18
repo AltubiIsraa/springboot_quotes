@@ -12,6 +12,7 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+// tests for quote controller
 @SpringBootTest
 @AutoConfigureMockMvc
 class QuoteTest {
